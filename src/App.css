@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: rgb(232, 232, 232);
+}
+
+::selection {
+  background-color: #af0e38;
+  color: white;
+}
+
+::-moz-selection {
+  background-color: #af0e38;
+  color: white;
+}

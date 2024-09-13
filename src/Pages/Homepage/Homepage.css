@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cedarville+Cursive&family=Kdam+Thmor+Pro&family=Vina+Sans&display=swap');
+
+.box{
+    background-color: #AF0E38 ;
+    color: white;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12vh;
+    width: 7vw;
+    border-radius: 50%;
+    position: fixed;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    z-index: -1;
+}
+
+.page-1{
+    min-height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.page-1 .content{
+    padding-top: 25vh;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.page-1 h1{
+    text-transform: uppercase;
+    font-size: 12rem;
+    line-height: 25vh;
+    font-weight: 900;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    z-index: 99;
+}
+
+.page-1 h2{
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 700;
+    z-index: 100;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.page-1 h2 span{
+    text-transform: uppercase;
+    color: #AF0E38 ;
+    font-family: 'Crimson Pro', serif;
+    z-index: 100;
+}

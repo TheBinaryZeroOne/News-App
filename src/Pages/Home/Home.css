@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cedarville+Cursive&family=Kdam+Thmor+Pro&family=Vina+Sans&display=swap');
+
+.home-box{
+    background-color: #af0e3994 ;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    width: 15vw;
+    border-radius: 50%;
+    position: fixed;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    z-index: -1;
+}
+
+.home-title{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
